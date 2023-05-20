@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/purple_200"
+    android:id="@+id/act2_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/wordhere"
+        android:layout_width="181dp"
+        android:layout_height="62dp"
+        android:layout_above="@+id/MainContainer"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="179dp"
+        android:layout_marginBottom="73dp"
+        android:gravity="center"
+        android:text="Word Here"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/audiobtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/MainContainer"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="269dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginBottom="81dp"
+        android:background="@drawable/shape_btn"
+        android:text="Audio"
+        android:textColor="@color/white" />
+
+    <FrameLayout
+        android:id="@+id/MainContainer"
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp">
+    </FrameLayout>
+
+</RelativeLayout>

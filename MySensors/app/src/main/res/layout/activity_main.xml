@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#48D1E2"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="207dp"
+        android:layout_height="61dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="62dp"
+        android:layout_marginEnd="103dp"
+        android:layout_marginBottom="608dp"
+        android:src="@drawable/imgse" />
+
+    <TextView
+        android:layout_width="111dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="187dp"
+        android:layout_marginEnd="247dp"
+        android:layout_marginBottom="494dp"
+        android:text="Proximity Sensor"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.171" />
+
+
+    <ToggleButton
+        android:id="@+id/toggle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="242dp"
+        android:layout_marginTop="186dp"
+        android:text="TOUCH"
+        android:layout_marginEnd="49dp"
+        android:layout_marginBottom="497dp"
+        android:background="@color/material_dynamic_secondary70" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="292dp"
+        android:layout_marginEnd="248dp"
+        android:layout_marginBottom="394dp"
+        android:text="Light Sensor"
+        android:textSize="20dp" />
+
+    <ToggleButton
+        android:id="@+id/toggle2"
+        android:layout_width="133dp"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="235dp"
+        android:layout_marginTop="283dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginBottom="389dp" />
+
+    <TextView
+        android:layout_width="195dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="381dp"
+        android:layout_marginEnd="205dp"
+        android:layout_marginBottom="280dp"
+        android:gravity="center"
+        android:text="GeoMagnetic Rotation"
+        android:textSize="22dp" />
+
+    <ToggleButton
+        android:id="@+id/toggle3"
+        android:layout_width="129dp"
+        android:layout_height="61dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="237dp"
+        android:layout_marginTop="386dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="285dp" />
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="93dp"
+        android:layout_marginEnd="97dp"
+        android:layout_marginBottom="213dp"
+        android:gravity="center"
+        android:text=""
+        android:textSize="20sp" />
+
+</RelativeLayout>

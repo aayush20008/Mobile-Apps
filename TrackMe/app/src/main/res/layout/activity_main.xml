@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:background="#203C6E"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/stride"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:translationY="-250dp"
+        android:fontFamily="serif-monospace"
+        android:textColor="@color/purple_200"
+        android:translationX="100dp"
+        android:text="Stride Length"/>
+    <TextView
+        android:id="@+id/dir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:translationY="300dp"
+        android:fontFamily="serif-monospace"
+        android:textColor="@color/purple_200"
+        android:text="Hello World!"/>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:translationY="-140dp"
+        android:textSize="25dp"
+        android:fontFamily="serif-monospace"
+        android:textColor="@color/purple_200"
+        android:text="Steps"/>
+
+    <TextView
+        android:id="@+id/x"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:translationY="40dp"
+        android:translationX="-120dp"
+        android:fontFamily="serif-monospace"
+        android:textColor="@color/purple_200"
+        android:text="Hello World!"/>
+
+    <TextView
+        android:id="@+id/y"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:translationX="-120dp"
+        android:translationY="65dp"
+        android:fontFamily="serif-monospace"
+        android:textColor="@color/purple_200"
+        android:text="Hello World!"/>
+
+    <TextView
+        android:id="@+id/stairs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:translationX="100dp"
+        android:translationY="55dp"
+        android:fontFamily="serif-monospace"
+        android:textColor="@color/purple_200"
+        android:hint="Stairs"/>
+
+
+    <TextView
+        android:id="@+id/z"
+        android:translationY="80dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:translationX="-120dp"
+        android:fontFamily="serif-monospace"
+        android:text="Hello World!"
+        android:textColor="@color/purple_200" />
+
+</LinearLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Screen2"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/bg_act1"
+    android:gravity="center">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:src="@drawable/img"
+
+        android:translationY="-25dp" />
+
+    <CheckBox
+        android:id="@+id/cb_1"
+        android:textColorHighlight="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dance"
+        android:translationY="-20dp"
+        android:checked="false"/>
+    <RatingBar
+        android:id="@+id/rb_1"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:translationY="-20dp" />
+    <CheckBox
+        android:id="@+id/cb_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/music"
+        android:translationY="-20dp"
+        android:checked="false"/>
+    <RatingBar
+        android:id="@+id/rb_2"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:translationY="-10dp" />
+    <CheckBox
+        android:id="@+id/cb_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:translationY="0dp"
+        android:text="@string/play"
+        android:checked="false"/>
+    <RatingBar
+        android:id="@+id/rb_3"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:translationY="5dp" />
+    <CheckBox
+        android:id="@+id/cb_4"
+        android:layout_width="match_parent"
+        android:translationY="15dp"
+        android:layout_height="wrap_content"
+        android:text="@string/fashion"
+        android:checked="false"/>
+    <RatingBar
+        android:id="@+id/rb_4"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:translationY="20dp" />
+    <CheckBox
+        android:id="@+id/cb_5"
+        android:layout_width="match_parent"
+        android:translationY="30dp"
+        android:layout_height="wrap_content"
+        android:text="@string/food"
+        android:checked="false"/>
+    <RatingBar
+        android:id="@+id/rb_5"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:translationY="30dp" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/submitid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:translationY="60dp"
+        android:text="NEXT"
+        android:textColor="@color/white"
+        android:background="@drawable/btn_design"
+        android:translationX="120dp"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/clearall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear"
+        android:translationY="10dp"
+        android:translationX="-120dp"/>
+</LinearLayout>
